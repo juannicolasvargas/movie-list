@@ -10,9 +10,6 @@ class DeviseTokenAuthCreateUsers < ActiveRecord::Migration[6.0]
       t.string :email
       t.string :name
       t.string :last_name
-      t.string :image
-      t.string :address
-      t.integer :cell_number
 
       ## Database authenticatable
       t.string :encrypted_password, :null => false, :default => ""
