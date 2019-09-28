@@ -1,24 +1,16 @@
-# README
+# Movies with sessions
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+user and movie administration module
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+Just run the setup script to configure the app:
 
-* System dependencies
+```bash
+  bin/setup
+```
 
-* Configuration
+## Environment dependencies
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby 2.5.1
+* PostgreSQL
