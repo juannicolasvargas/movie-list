@@ -21,7 +21,6 @@ RSpec.describe Movie, type: :model do
   it 'validation controlled errors' do
     expect(subject.valid?).to be_falsey
     expect(subject.errors.details[:title].first[:error]).to eq(:blank)
-    expect(subject.errors.details[:recommended].first[:error]).to eq(:blank)
     expect(subject.errors.details[:age_rating].first[:error]).to eq(:blank)
   end
 end

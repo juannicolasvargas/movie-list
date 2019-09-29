@@ -74,7 +74,7 @@ RSpec.describe "Movies", type: :request do
         parsed_response = JSON.parse(response.body, symbolize_names: true)
         expect(response).to have_http_status(:unprocessable_entity)
         expect(response).to have_http_status(422)
-        expect(parsed_response[:recommended].first).to eq("can't be blank")
+        expect(parsed_response[:age_rating].first).to eq("can't be blank")
       end
     end
   end
