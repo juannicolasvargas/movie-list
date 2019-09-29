@@ -27,7 +27,7 @@ RSpec.describe User, type: :model do
     expect(user.errors[:email].first).to eq('has already been taken')
   end
 
-  it 'create a user' do
+  it 'creating a user' do
     new_user = described_class.new(user_payload)
     expect(new_user.valid?).to be_truthy
     new_user.save!

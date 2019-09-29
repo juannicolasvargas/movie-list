@@ -1,0 +1,15 @@
+first_movie:
+  id: 1
+  title: Star Wars
+  description: chapter one
+  recommended: true
+  age_rating: suitable_for_all_audiences
+  release_data: 1999-12-22
+
+second_movie:
+  id: 2
+  title: The Shining
+  description: Terror psicológico
+  recommended: true
+  age_rating: suitable_for_over_15
+  release_data: 1961-12-22
